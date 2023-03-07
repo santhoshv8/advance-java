@@ -22,10 +22,10 @@ public class AeroplaneWebInit extends AbstractAnnotationConfigDispatcherServletI
 	protected String[] getServletMappings() {
 		System.out.println("Running getServletMappings");
 		return new String [] {"/"};
-	}
+	} 
 
 	@Override
 	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-		configurer.enable();
+		configurer.enable(); 
 	}
 }
